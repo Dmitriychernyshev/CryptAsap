@@ -1,0 +1,369 @@
+/*  Спецификация  */
+body {
+    background: linear-gradient(287.41deg, #E2E2E2 0%, #E2E2E2 14%, #E8E8E8 42.42%, #D5D9E5 70.14%, #D5D9E5 84.32%, #D5D9E5 100%);
+    color: #171717;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 92px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+button,
+button:hover,
+button:focus {
+	font-family: inherit;
+	outline: none;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+p {
+  margin: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+.btn-outline-dark, .btn-light {
+    border-radius: 53px;
+}
+
+.btn-light {
+    background: linear-gradient(90deg, #A3CF5D -3.12%, #81C580 100%);
+    border: none;
+    font-size: 14px;
+    max-width: 230px;
+    width: 100%;
+}
+
+.btn-light:hover,.btn-light:active {
+    background: linear-gradient(90deg, #81C580 -3.12%, #A3CF5D 100%);
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.bg-1 {
+    background: url('../img/bg-1.png') no-repeat, url('../img/ellipse.png') center top 200px no-repeat;
+}
+
+h1 span, .partners h2 span {
+    background: linear-gradient(90.08deg, #A5D05C 49.99%, #7CC685 65.61%, #F8B52B 80.29%, #C75027 94.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.offer {
+    padding-bottom: 160px;
+}
+
+.offer p {
+    max-width: 1030px;
+}
+
+.advantages {
+    padding-bottom: 200px;
+}
+
+.advantages .card {
+    padding: 30px 40px 40px 40px;
+    background: #FFFFFF4D;
+    border: none;
+}
+
+.advantages .card img {
+    max-width: 72px;
+}
+
+.bg-2 {
+    background: url('../img/bg-2.png') center center no-repeat;
+}
+
+.plans {
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.plans .card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%),
+linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    border: none;
+    padding: 50px;
+    transition: all 0.5s ease;
+}
+
+.plans .card:hover {
+    background: linear-gradient(90deg, #A3CF5D -3.12%, #81C580 100%);
+    box-shadow: 0 0 20px 5px #8BC875;
+    transform: translate(0px, -30px);
+    transition: all 0.5s ease;
+}
+
+.plans .card:hover .btn-light {
+    background: linear-gradient(287.41deg, #000000 0%, #000000 14%, #141929 36%, #141929 54%, #0B0813 76%, #000000 100%);
+    color: #fff;
+}
+
+.plans .card .text-uppercase {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.plans .card span {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.partners {
+    padding-bottom: 200px;
+}
+
+.partners .card {
+    background: linear-gradient(287.41deg, #000000 0%, #000000 14%, #141929 36%, #141929 54%, #0B0813 76%, #000000 100%);
+    border: none;
+    padding: 60px;
+}
+
+.partners .card p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+.partners span {
+    font-size: 128px;
+    line-height: 148px;
+    font-weight: 600;
+}
+
+.partners .d-flex {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+    padding: 10px 0;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.bg-modal {
+    background: url('../img/modal-bg.svg') center center no-repeat, linear-gradient(287.41deg, #000000 0%, #000000 14%, #141929 36%, #141929 54%, #0B0813 76%, #000000 100%);
+}
+
+.bg-form {
+    background: linear-gradient(287.41deg, #E2E2E2 0%, #E2E2E2 14%, #E8E8E8 42.42%, #D5D9E5 70.14%, #D5D9E5 84.32%, #D5D9E5 100%);
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.password {
+	position: relative;
+}
+.password-control {
+	position: absolute;
+	top: 36px;
+    right: 10px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/eye-closed.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(../img/eye-closed.svg) 0 0 no-repeat;
+}
+
+.bg-form p a {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding-top: 50px;
+}
+
+/*  Mobile menu  */
+.navbar-toggler {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(90deg, #A3CF5D -3.12%, #81C580 100%);
+    border-radius: 10px;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler span, .navbar-toggler span:after, .navbar-toggler span:before {
+    height: 2px;
+    width: 20px;
+    right: 5%;
+    border-radius: 15px;
+    position: absolute;
+    background: #515758;
+    margin: 0 auto;
+    transition: 0.3s; 
+}
+
+.navbar-toggler span:after, .navbar-toggler span:before {
+    content: '';
+}
+
+.navbar-toggler span:after{
+    bottom: 8px;
+    right: 0;
+    width: 25px;
+    transition: 0.3s; 
+}
+.navbar-toggler span:before{
+    top: 8px;
+    right: 0;
+    width: 25px;
+    transition: 0.3s; 
+}
+
+.navbar-toggler.open-menu span {
+    transform: rotate(45deg);
+    width: 25px;
+    right: 23px;
+    transition: 0.3s; 
+}
+.navbar-toggler.open-menu span:before {
+    opacity: 0;
+    transition: 0.3s;
+}
+.navbar-toggler.open-menu span:after {
+    transform: rotate(-90deg);
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+    .header {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+    }
+    .navbar-brand img {
+        height: 70px;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    h1 img {
+        width: 32px;
+    }
+    .btn-light {
+        max-width: 312px;
+    }
+    .phone {
+        width: 217px;
+    }
+    .offer {
+        padding-bottom: 57px;
+    }
+    .advantages, .partners {
+        padding-bottom: 100px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .plans .card {
+        padding: 20px;
+        width: 100%;
+    }
+    .plans .card span {
+        font-size: 68px;
+    }
+    .owl-item {
+        width: 33%;
+    }
+    .partners .card {
+        padding: 30px 20px;
+    }
+    .partners .text-uppercase {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .btn-outline-dark {
+        font-size: 14px;
+    }
+    .go-top, .owl-next, .owl-prev {
+        background: linear-gradient(90deg, #A3CF5D -3.12%, #81C580 100%) !important;
+        width: 48px;
+        height: 48px;
+        border-radius: 10px !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .owl-next {
+        position: absolute;
+        top: 40%;
+        right: -5px;
+    }
+    .owl-prev {
+        position: absolute;
+        top: 40%;
+        left: -5px;
+    }
+    .modal-content .btn-light {
+        max-width: 230px;
+    }
+    .bg-menu {
+        transition: all 0.5s ease;
+        height: 100vh;
+        background: url('../img/modal-bg.svg') no-repeat, linear-gradient(287.41deg, #000000 0%, #000000 14%, #141929 36%, #141929 54%, #0B0813 76%, #000000 100%);
+        background-size: cover;
+    }
+    .nav-link {
+        padding: 15px 0;
+    }
+    .nav-link:hover, .nav-link:active, .nav-link:focus {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+    }
+}

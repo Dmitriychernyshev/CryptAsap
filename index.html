@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>CRYPTASAP</title>
+</head>
+<body>
+    <!-- Модальное окно "Регистрация" -->
+    <div class="modal fade" id="registration" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row m-0">
+                <div class="col-6 d-none d-lg-flex rounded-start bg-modal">
+                    <img class="p-5" src="img/logo-modal.svg" alt="CRYPTASAP">
+                </div>
+                <div class="col-lg-6 rounded-lg-end bg-form">
+                    <form action="#" class="d-flex flex-column align-items-center pt-5 pb-4 px-2 px-lg-5">
+                        <h3 class="text-center">
+                            Регистрация
+                        </h3>
+                        <div class="w-100 mb-3">
+                            <label for="exampleInputName" class="form-label">Имя</label>
+                            <input name="name" type="text" class="form-control" id="exampleInputName">
+                        </div>
+                        <div class="w-100 mb-3">
+                            <label for="exampleInputEmail" class="form-label">Email</label>
+                            <input name="email" type="email" class="form-control" id="exampleInputEmail">
+                        </div>
+                        <div class="w-100 password mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                            <input name="password" type="password" class="form-control" id="exampleInputPassword">
+                            <a href="#" class="password-control"></a>
+                        </div>
+                        <div class="w-100 password mb-3">
+                            <label for="exampleInputPassword2" class="form-label">Повторите пароль</label>
+                            <input name="password" type="password" class="form-control" id="exampleInputPassword">
+                            <a href="#" class="password-control"></a>
+                        </div>
+                        <a href="#" class="btn btn-light mt-3 px-5 py-3 w-fit-content fw-bold">Зарегистрироваться</a>
+                        <p class="mt-3">У вас уже есть аккаунт? <a href="#">Войти</a></p>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Модальное окно "Регистрация"-->
+
+    <!-- Модальное окно "Войти" -->
+    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row m-0">
+                <div class="col-6 d-none d-lg-flex rounded-start bg-modal">
+                    <img class="p-5" src="img/logo-modal.svg" alt="CRYPTASAP">
+                </div>
+                <div class="col-lg-6 rounded-lg-end bg-form">
+                    <form action="#" class="d-flex flex-column align-items-center pt-5 pb-4 px-2 px-lg-5 h-100">
+                        <h3 class="text-center">
+                            Вход
+                        </h3>
+                        <div class="w-100 mb-3">
+                            <label for="exampleInputEmail" class="form-label">Email</label>
+                            <input name="email" type="email" class="form-control" id="exampleInputEmail">
+                        </div>
+                        <div class="w-100 password mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                            <input name="password" type="password" class="form-control" id="exampleInputPassword">
+                            <a href="#" class="password-control"></a>
+                        </div>
+                        <a href="#" class="underline">Забыли пароль?</a>
+                        <button class="btn btn-light mt-5 mt-lg-auto px-5 py-3 w-fit-content fw-bold">Войти</button>
+                        <p class="mt-3">У вас нет аккаунта? <a href="#">Регистрация</a></p>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Модальное окно "Войти" -->
+<div class="bg-1">
+    <header class="header" id="header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand me-0" href="/">
+                        <img src="img/logo.svg" alt="CRYPTASAP">
+                      </a>
+                      <button class="btn btn-outline-dark btn-partner px-5 py-3 d-lg-none">Стать партнером</button>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link text-center active" aria-current="page" href="#">Главная</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-center" href="#advantages">Преимущества партнерства</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-center" href="#plans">Партнёрские планы</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-center" href="#partners">Стать партнером</a>
+                          </li>
+                        </ul>
+                        <div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start mt-5 mt-lg-0">
+                            <button data-bs-toggle="modal" data-bs-target="#login" class="btn btn-login d-flex align-items-center me-2">
+                                Вход
+                                <img class="d-none d-lg-block ms-1" src="img/login.svg" alt="Вход">
+                                <img class="d-lg-none ms-1" src="img/login-mobile.svg" alt="Вход">
+                            </button>
+                            <button data-bs-toggle="modal" data-bs-target="#registration" class="btn btn-outline-dark px-5 py-3 d-none d-lg-block">Регистрация</button>
+                            <button data-bs-toggle="modal" data-bs-target="#registration" class="btn btn-light mt-3 px-5 py-3 w-fit-content fw-bold d-lg-none">Регистрация</button>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <section class="offer" id="offer">
+        <div class="container">
+            <div class="row align-items-center flex-column">
+                <h1 class="text-uppercase text-lg-center mt-5 mt-lg-0">
+                    <div class="d-flex align-items-lg-center justify-content-lg-center">Лучшая <img src="img/offer.svg" class="mx-3"> <p class="d-none d-lg-inline">партнерская</p></div> <p class="d-lg-none">партнерская</p> программа <span class="text-uppercase">CryptAsap</span>
+                </h1>
+                <p class="text-lg-center mt-4">
+                    Легкая, быстрая и понятная платформа. Комиссия партнерам до 80% от дохода и до 7% от оборота. Выплаты раз в неделю. Лояльная и отзывчивая служба поддержки.
+                </p>
+                <a href="#" class="btn btn-light mt-5 px-5 py-3 w-fit-content fw-bold">Стать партнером</a>
+            </div>
+        </div>
+    </section>
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 d-flex d-lg-none align-items-center justify-content-center mb-5">
+                    <img class="phone" src="img/phone.png" alt="CryptAsap">
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-between">
+                    <div class="card mb-4 mb-lg-0">
+                        <img class="mb-4" src="img/commissions.svg" alt="Высокие комиссии">
+                        <h3 class="mb-3">
+                            Высокие комиссии
+                        </h3>
+                        <p>
+                            Описание преимущества в две или три строчки, описание преимущества в две или три строчки,
+                        </p>
+                    </div>
+                    <div class="card mb-4 mb-lg-0">
+                        <img class="mb-4" src="img/plans.svg" alt="Понятные планы">
+                        <h3 class="mb-3">
+                            Понятные планы
+                        </h3>
+                        <p>
+                            Описание преимущества в две или три строчки, описание преимущества в две или три строчки,
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-flex align-items-center justify-content-center">
+                    <img src="img/phone.png" alt="CryptAsap">
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-between">
+                    <div class="card mb-4 mb-lg-0">
+                        <img class="mb-4" src="img/payments.svg" alt="Регулярные выплаты">
+                        <h3 class="mb-3">
+                            Регулярные выплаты
+                        </h3>
+                        <p>
+                            Описание преимущества в две или три строчки, описание преимущества в две или три строчки,
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img class="mb-4" src="img/interface.svg" alt="Удобный интерфейс">
+                        <h3 class="mb-3">
+                            Удобный интерфейс
+                        </h3>
+                        <p>
+                            Описание преимущества в две или три строчки, описание преимущества в две или три строчки,
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="bg-2">
+    <section class="plans" id="plans">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">
+                    Наши партнерские планы
+                </h2>
+                <p class="text-center">
+                    Пару строчек или одна с описанием
+                </p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="card d-flex align-items-center">
+                    <div class="text-uppercase">B a s i c</div>
+                    <div>
+                        <span>$199</span>/мес
+                    </div>
+                    <div class="mb-3">Строчки</div>
+                    <div class="mb-3">Для описания</div>
+                    <div class="mb-3">Преимуществ</div>
+                    <div class="mb-3">И всяких плюшек</div>
+                    <div class="mb-3">Что входят в план</div>
+                    <a href="#" class="btn btn-light mt-5 px-5 py-3 w-fit-content fw-bold">Выбрать план</a>
+                </div>
+                <div class="card d-flex align-items-center">
+                    <div class="text-uppercase">S t a n d a r t</div>
+                    <div>
+                        <span>$299</span>/мес
+                    </div>
+                    <div class="mb-3">Строчки</div>
+                    <div class="mb-3">Для описания</div>
+                    <div class="mb-3">Преимуществ</div>
+                    <div class="mb-3">И всяких плюшек</div>
+                    <div class="mb-3">Что входят в план</div>
+                    <a href="#" class="btn btn-light mt-5 px-5 py-3 w-fit-content fw-bold">Выбрать план</a>
+                </div>
+                <div class="card d-flex align-items-center">
+                    <div class="text-uppercase">P r e m i u m </div>
+                    <div>
+                        <span>$399</span>/мес
+                    </div>
+                    <div class="mb-3">Строчки</div>
+                    <div class="mb-3">Для описания</div>
+                    <div class="mb-3">Преимуществ</div>
+                    <div class="mb-3">И всяких плюшек</div>
+                    <div class="mb-3">Что входят в план</div>
+                    <a href="#" class="btn btn-light mt-5 px-5 py-3 w-fit-content fw-bold">Выбрать план</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners" id="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <h2 class="text-white">
+                            Призыв в две или три строчки строчек стать партнером <span class="text-uppercase">CryptAsap</span>
+                        </h2>
+                        <p>
+                            Легкая, быстрая и понятная платформа. Комиссия партнерам до 80% от дохода и до 7% от оборота. Выплаты раз в неделю. Лояльная и отзывчивая служба поддержки. Лояльная и отзывчивая служба поддержки.
+                        </p>
+                        <a href="#" class="btn btn-light mt-5 px-5 py-3 w-fit-content fw-bold">Стать партнером</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <div class="d-flex flex-column align-items-center">
+                        <span>
+                            99%
+                        </span>
+                        Довольных клиентов
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <span>
+                            12K
+                        </span>
+                        Успешных проектов
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <span>
+                            500+
+                        </span>
+                        Чего-то там еще
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 d-flex align-items-center justify-content-between justify-content-lg-start">
+                <a class="navbar-brand" href="/">
+                    <img src="img/logo.svg" alt="CRYPTASAP">
+                </a>
+                <p class="ms-3 d-none d-lg-block">
+                    © CryptAsap, 2024 - Все права защищены
+                </p>
+                <button class="btn btn-outline-dark px-5 py-3 d-lg-none">Стать партнером</button>
+                <a href="#header" class="go-top d-flex align-items-center justify-content-center">
+                    <img src="img/arrow.svg">
+                </a>
+            </div>
+            <div class="col-lg-6 d-none d-lg-flex">
+                <button class="btn btn-outline-dark px-5 py-3 ms-auto">Стать партнером</button>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
